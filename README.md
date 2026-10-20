@@ -4,14 +4,17 @@ Senior full-stack engineer on a live ticketing and payments platform. I work acr
 
 I use **Claude Code** as a daily engineering tool, not just for autocomplete. I've built a workflow around it so the agent's output gets checked as hard as a colleague's PR would be.
 
+[![My Sticky Dashboard: the work dashboard I use every day, running on sample data](assets/dashboard.png)](https://jovanmb.github.io/my-sticky-dashboard-demo/)
+
 #### Start here
 
-| | |
-|---|---|
-| **[My Sticky Dashboard: live demo](https://jovanmb.github.io/my-sticky-dashboard-demo/)** | The work dashboard I use every day, rebuilt on sample data and running in your browser. Behind it: a typed domain shared by a Fastify + SQLite API and an in-memory backend, 38 unit and API tests, 8 Playwright tests, CI, and a decision log of twelve times I had to correct the AI agent. |
-| **Claude Code workflow** | The skills, hooks and guardrails I use with an AI agent on a production codebase. Every rule is traced to the failure that caused it, and a recorded review run shows what the agent caught and what it got wrong. |
+- **[My Sticky Dashboard: live demo](https://jovanmb.github.io/my-sticky-dashboard-demo/)**: the work dashboard I use every day, rebuilt on sample data and running in your browser. Behind it are a typed API on SQLite, 38 unit and API tests, 8 Playwright tests and CI.
+- **[AI engineering notes](https://jovanmb.github.io/ai-engineering-notes/)**: write-ups from real work.
+  - [Twelve times I corrected the AI](https://jovanmb.github.io/ai-engineering-notes/decisions.html): bugs in AI-written code that looked correct, and how each was caught.
+  - [An AI reviewer on a PR with a planted bug](https://jovanmb.github.io/ai-engineering-notes/pr-review-case-study.html): it found the planted SQL injection, then two real bugs I hadn't planted.
+  - [How my AI workflow evolved](https://jovanmb.github.io/ai-engineering-notes/workflow-evolution.html): sixteen rewrites, each traced to a failure.
 
-The source for both is private and available on request.
+The source code is private and available on request.
 
 #### How I work with AI agents
 
