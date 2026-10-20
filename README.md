@@ -15,7 +15,7 @@ I use **Claude Code** as a daily engineering tool, not just for autocomplete. I'
   - [An AI reviewer on a retry change that passes every test](https://jovanmb.github.io/ai-engineering-notes/retry-case-study.html): it found the planted double-post, then a hanging-request bug I'd written without noticing.
   - [How my AI workflow evolved](https://jovanmb.github.io/ai-engineering-notes/workflow-evolution.html): sixteen rewrites, each traced to a failure.
 
-- **[claude-code-pr-review](https://github.com/jovanmb/claude-code-pr-review)** (open source, MIT): my adversarial PR review skill for Claude Code, installable as a plugin. Nine lenses chosen per diff, and every finding has to survive a refutation pass.
+- **[claude-code-pr-review](https://github.com/jovanmb/claude-code-pr-review)** (open source, MIT): my adversarial PR review skill for Claude Code, installable as the `refute-first-review` plugin. Nine lenses chosen per diff, and every finding has to survive a refutation pass.
 
 The dashboard's source code is private and available on request.
 
