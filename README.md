@@ -8,8 +8,10 @@ I use **Claude Code** as a daily engineering tool, not just for autocomplete. I'
 
 | | |
 |---|---|
-| **[claude-code-workflow](https://github.com/jovanmb/claude-code-workflow)** | The skills, hooks and guardrails I use with an AI agent on a production codebase. Every rule is traced to the failure that caused it, and a recorded review run shows what the agent caught and what it got wrong. |
-| **[my-sticky-dashboard](https://github.com/jovanmb/my-sticky-dashboard)** · [live demo](https://jovanmb.github.io/my-sticky-dashboard/) | The work dashboard I use every day, rebuilt on sample data. A typed domain shared by a Fastify + SQLite API and an in-memory demo backend, with 38 unit and API tests, 8 Playwright tests, CI, and an [AI decision log](https://github.com/jovanmb/my-sticky-dashboard/blob/main/docs/DECISIONS.md) of twelve times I had to correct the agent. |
+| **[My Sticky Dashboard: live demo](https://jovanmb.github.io/my-sticky-dashboard-demo/)** | The work dashboard I use every day, rebuilt on sample data and running in your browser. Behind it: a typed domain shared by a Fastify + SQLite API and an in-memory backend, 38 unit and API tests, 8 Playwright tests, CI, and a decision log of twelve times I had to correct the AI agent. |
+| **Claude Code workflow** | The skills, hooks and guardrails I use with an AI agent on a production codebase. Every rule is traced to the failure that caused it, and a recorded review run shows what the agent caught and what it got wrong. |
+
+The source for both is private and available on request.
 
 #### How I work with AI agents
 
