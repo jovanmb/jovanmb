@@ -14,7 +14,9 @@ I use **Claude Code** as a daily engineering tool, not just for autocomplete. I'
   - [An AI reviewer on a PR with a planted bug](https://jovanmb.github.io/ai-engineering-notes/pr-review-case-study.html): it found the planted SQL injection, then two real bugs I hadn't planted.
   - [How my AI workflow evolved](https://jovanmb.github.io/ai-engineering-notes/workflow-evolution.html): sixteen rewrites, each traced to a failure.
 
-The source code is private and available on request.
+- **[claude-code-pr-review](https://github.com/jovanmb/claude-code-pr-review)** (open source, MIT): my adversarial PR review skill for Claude Code, installable as a plugin. Nine lenses chosen per diff, and every finding has to survive a refutation pass.
+
+The dashboard's source code is private and available on request.
 
 #### How I work with AI agents
 
